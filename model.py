@@ -99,4 +99,4 @@ print(f'\nMean Absolute Error = {mae_1}, Mean Squared Error = {mse_1}.')
 
 # Write metrics to file
 with open('metrics.txt', 'w') as outfile:
-    outfile.write(f'\nMean Absolute Error = {mae_1}, Mean Squared Error = {mse_1}.')
+    outfile.write(f'\nRESULTS:\nMean Absolute Error = {mae_1}, Mean Squared Error = {mse_1}.')
