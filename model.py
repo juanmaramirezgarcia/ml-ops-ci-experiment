@@ -25,7 +25,7 @@ def plot_predictions(train_data, train_labels,  test_data, test_labels,  predict
   plt.xlabel('X axis values', family='Arial', fontsize=11)
   plt.ylabel('Y axis values', family='Arial', fontsize=11)
   # Show
-  plt.savefig('model_results.png', dpi=120)
+  plt.savefig('model_results.png', dpi=140)
 
 
 
@@ -99,4 +99,4 @@ print(f'\nMean Absolute Error = {mae_1}, Mean Squared Error = {mse_1}.')
 
 # Write metrics to file
 with open('metrics.txt', 'w') as outfile:
-    outfile.write(f'\nMean Absolute Error = {mae_1}, Mean Squared Error = {mse_1}.')
+    outfile.write(f'\nRESULTS:\nMean Absolute Error = {mae_1}, Mean Squared Error = {mse_1}.')
